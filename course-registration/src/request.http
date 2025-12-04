@@ -1,0 +1,12 @@
+
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "fullName": "Uma",
+  "email": "uma@gmail.com",
+  "phone": "9876543210",
+  "courseName": "Java",
+  "experienceLevel": "Beginner",
+  "preferredBatchDate": "2025-12-05"
+}

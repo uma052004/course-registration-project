@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Registrations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📋 Course Registration Dashboard</h1>
+
+    <input type="text" id="searchInput" placeholder="Search by name, email or course...">
+
+    <table>
+        <thead>
+<tr>
+    <th>ID</th>
+    <th>Full Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Course</th>
+    <th>Experience</th>
+    <th>Batch Date</th>
+    <th>Actions</th> <!-- new -->
+</tr>
+</thead>
+
+        <tbody id="dataBody">
+        </tbody>
+    </table>
+
+    <p id="loadingText">Fetching data...</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
